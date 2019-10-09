@@ -1,4 +1,4 @@
-package com.jaaccorp.core;
+package com.jaaccorp.futpro;
 
 public class Badge {
 
