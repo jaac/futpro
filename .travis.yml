@@ -7,7 +7,7 @@ branches:
 notifications:
   email:
     recipients:
-      - info@jaaccorp.com
+      - jaac@jaaccorp.com
 # services:
 # - mysql
 # - mongodb
