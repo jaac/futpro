@@ -19,3 +19,12 @@ script:
 
   #SONARCLOUD
   - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=jaac-github -Dsonar.login=$SONAR
+
+  #Deploy https://app-futpro.herokuapp.com/api
+  deploy:
+    provider: heroku
+    api_key:
+      secure: $HEROKU
+    on:
+      branch: master
+    app: app-futpro
