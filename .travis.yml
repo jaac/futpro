@@ -27,4 +27,4 @@ script:
       secure: $HEROKU
     on:
       branch: master
-    app: app-futpro
+  app: app-futpro
